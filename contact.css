@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.menu_bar{
+       background-color: black;
+       height: 80px;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: 0 5%;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+}
+.menu_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.menu_bar ul li a:hover{
+    color: yellow;
+    border-bottom: 1px solid white;
+}
+.contanier{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: rgb(13, 41, 41);
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background-color: #ff5361;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+.contanier h1{
+    text-align: center;
+    color: white;
+}
+input#name {
+    border: 1px solid;
+    border-radius: 53px;
+}
+input#email {
+    border: 1px solid;
+    border-radius: 53px;
+}
+input#phone {
+    border: 1px solid;
+    border-radius: 37px;
+}
+textarea#message {
+    border: 1px solid;
+    border-radius: 75px;
+}
